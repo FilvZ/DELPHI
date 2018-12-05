@@ -1,2 +1,2 @@
-# Pyton
-DELPHI&amp;
+# Python
+Python&amp;
