@@ -35,7 +35,7 @@ def getlist(tid):
         data_df=np.array(npd)
         data = pd.DataFrame(data_df)
         writer = pd.ExcelWriter('Save_Excel1.xlsx')
-        data.to_excel(writer,'page_1') # float_format 控制精度
+        data.to_excel(writer,'page_1')
         writer.save()
         getlist(tid)
         pass
@@ -93,7 +93,7 @@ def getcont(tid,ar,t):
             data_df=np.asarray(npd)
             data = pd.DataFrame(data_df)
             writer = pd.ExcelWriter('Save_Excel1.xlsx')
-            data.to_excel(writer,'page_1') # float_format 控制精度
+            data.to_excel(writer,'page_1')
             writer.save()
         pass
     except Exception as e:
@@ -102,7 +102,7 @@ def getcont(tid,ar,t):
         data_df=np.array(npd)
         data = pd.DataFrame(data_df)
         writer = pd.ExcelWriter('Save_Excel1.xlsx')
-        data.to_excel(writer,'page_1') # float_format 控制精度
+        data.to_excel(writer,'page_1')
         writer.save()
         getcont(tid,ar,t)
         pass
