@@ -1,2 +1,2 @@
-打飞机 小游戏
-依赖库 pygame
+# minigame 迷你游戏
+# Reptile Data 爬虫 爬取数据
